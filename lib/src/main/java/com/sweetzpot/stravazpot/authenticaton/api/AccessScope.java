@@ -5,6 +5,7 @@ public enum AccessScope {
     WRITE("write"),
     VIEW_PRIVATE("view_private"),
     VIEW_PRIVATE_WRITE("view_private,write");
+    VIEW_PRIVATE_READ_WRITE("activity:write,read")
 
     private String rawValue;
 
